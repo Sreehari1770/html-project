@@ -1,0 +1,74 @@
+/* Split the screen in half */
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+  }
+  
+  /* Control the left side */
+  .left {
+    left: 0;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxdkuv-iTvIY5SDuhnqHgTi1aEJ-qZaXKSWA&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  /* Control the right side */
+  .right {
+    right: 0;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3hYJwXRLUL8RwBrSary1b0EcfmK4lKhUXhw&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  /* If you want the content centered horizontally and vertically */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  /* Style the image inside the centered container, if needed */
+  .centered img {
+    width: 150px;
+    border-radius: 50%;
+  }
+  .fill{
+    text-align: center;
+    padding: 10px;
+    width:300px;
+    margin-top: 10px;
+}
+.fill2{
+  border: 2px solid black;
+  padding: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+  /* border: 2px solid black;
+  padding: 10px;
+  width: 200px;
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; */
+
+a{
+  border: 2px solid black;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+}

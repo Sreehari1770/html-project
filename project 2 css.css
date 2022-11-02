@@ -1,0 +1,166 @@
+body{
+    background-color:wheat;
+}
+div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 30px;
+    font-size: 20px;
+    display: flex;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXp_Uo6ceOTeKzrGu8vmdmWQwKyBk3rNVSSQ&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img{
+    flex: 1;
+}
+li{
+    list-style: none;
+    padding: 5px;
+}
+ul{
+    display: flex;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    border: 1px solid black;
+    background-color: white;
+    padding: 3px;
+    border-radius: 5px;
+}
+a:hover{
+    color:red;
+}
+/* Bordered form */
+form {
+    border: 3px solid #f1f1f1;
+  }
+  
+  /* Full-width inputs */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+  
+  img.avatar {
+    width: 40%;
+    border-radius: 50%;
+  }
+  
+  .container {
+    padding: 16px;
+    text-align: left;
+  }
+
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+  }
+  .fill{
+    padding-top: 20px;
+    margin-top: 40px;
+    border: 2px;
+    width:550px;
+    background-color: white;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .fill2{
+    padding-top: 20px;
+    margin-top: 40px;
+    border: 2px;
+    width:700px;
+    background-color: white;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .fill3{
+    padding-top: 20px;
+    text-align: left;
+    margin-top: 40px;
+    border: 2px;
+    width:700px;
+    background-color: white;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+  }
+  .item1{
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+.item2{
+    text-align: left;
+    padding-right: 20px ;
+}
+.item3{
+    text-align: left;
+    padding-right: 20px;
+}
+.anim {
+    width: 500px;
+    height: 175px;
+    background-image:url('https://goldeneraeducation.com/wp-content/uploads/2020/09/SKCET.jpg');
+    position: relative;
+    animation: mymove 15s infinite;
+    opacity: 0.3;
+  }
+  
+  @keyframes mymove {
+    from {top: 0px;}
+    to {top: 2725px;}
+  }
+  
